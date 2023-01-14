@@ -1,0 +1,41 @@
+# more inspiration -> https://github.com/github/gitignore
+
+# Generic
+*.log
+*.backup
+
+# Mac
+._.DS_Store
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Visual studio code
+.vscode
+
+# HP WOLF protect software 
+~BROMIUM
+
+# Terraform
+.terraform
+*.tfstate
+*.tfvars
+!*.EXAMPLE.tfvars
+*.tfplan
+*.tfstate.backup
+.terraform.tfstate.lock.info
+
+#Infracost
+.infracost/
+/.infracost*.out.*
+
+# Editor
+.vscode
+.idea
+
+# ignore Node JS modules
+node_modules/*
+.env
+package-lock.json
+package.json
